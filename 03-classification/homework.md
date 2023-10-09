@@ -3,6 +3,9 @@
 > Note: sometimes your answer doesn't match one of the options exactly. That's fine. 
 Select the option that's closest to your solution.
 
+Solution: [homework_3.ipynb](homework_3.ipynb)
+
+
 ### Dataset
 
 In this homework, we will use the Car price dataset. Download it from [here](https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-02-car-price/data.csv).
@@ -27,11 +30,12 @@ For the rest of the homework, you'll need to use only these columns:
 * `Transmission Type`,
 * `Vehicle Style`,
 * `highway MPG`,
-* `city mpg`
+* `city mpg`,
+* `MSRP`
 
 ### Data preparation
 
-* Select only the features from above and transform their names using next line:
+* Select only the features from above and transform their names using the next line:
   ```
   data.columns = data.columns.str.replace(' ', '_').str.lower()
   ```
