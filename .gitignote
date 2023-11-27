@@ -1,3 +1,7 @@
+# generated
+.ipynb_checkpoints/
+__pycache__/
+
 # file types
 *.h5
 *.tflite
